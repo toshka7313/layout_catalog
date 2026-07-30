@@ -116,6 +116,7 @@
   }
 
   &:hover {
-    transform-origin: scale(1.2);
+    transform: scale(1.2);
+    transform-origin: center center;
   }
 }
