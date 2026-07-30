@@ -29,7 +29,7 @@
   }
 
   &:hover &__title {
-    color: #34568b;
+    color: $title-hover-color;
   }
 
   &__code {
@@ -116,6 +116,6 @@
   }
 
   &:hover {
-    transform: scale(1.2);
+    transform-origin: scale(1.2);
   }
 }
